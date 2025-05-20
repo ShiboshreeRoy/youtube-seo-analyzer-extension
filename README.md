@@ -95,6 +95,6 @@ youtube-seo-analyzer-extension/
 
 ## 📜 License
 
-MIT License — feel free to use and modify this extension for personal or commercial projects.
+This project is licensed under the [MIT License](LICENSE) — feel free to use and modify this extension for personal or commercial projects.
 
 ---
