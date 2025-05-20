@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "TubeBuddy Clone SEO Analyzer",
+  "description": "Get YouTube video tags and SEO metrics directly!",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting","clipboardWrite"],
+   
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./icons/tube_master_icon_3.png",
+    "48": "./icons/tube_master_icon_2.png",
+    "128": "./icons/tubemaster_icon_1.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/watch*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "./icons/tube_master_icon_3.png",
+    "48": "./icons/tube_master_icon_2.png",
+    "128": "./icons/tubemaster_icon_1.png"
+  }
+}

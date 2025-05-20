@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shiboshree Roy">
+    <meta name="email" content="shiboshreeroycse@gmail.com">
+    <meta name="description" content="A powerful SEO data extractor for YouTube videos. Analyze title, tags, and metadata for better visibility.">
+  
+    <title>YouTube SEO Analyzer</title>
+    <link rel="stylesheet" href="./styles/popup.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🎯 YouTube SEO Analyzer</h1>
+        </header>
+
+        <div class="section">
+            <div class="metric-box">
+                <h3>Title</h3>
+                <div id="videoTitle" class="truncate"></div>
+                <button id="copyTitleBtn" class="copy-btn">📋 Copy</button>
+            </div>
+
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <span class="metric-label">Description Length</span>
+                    <span id="descLength" class="metric-value">0</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-label">SEO Score</span>
+                    <span id="seoScore" class="metric-value score">0</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Tags <button id="copyTagsBtn" class="copy-btn small">📋 Copy All</button></h3>
+                <ul id="tagsList" class="tags-container"></ul>
+            </div>
+
+            <div class="section">
+                <h3>Description <button id="copyDescBtn" class="copy-btn small">📋 Copy</button></h3>
+                <div id="fullDescription" class="description-box"></div>
+            </div>
+        </div>
+
+        <div id="statusMessage" class="status-bar"></div>
+    </div>
+    <script src="./config/popup.js"></script>
+</body>
+</html>
