@@ -3,6 +3,8 @@
   "name": "TubeBuddy Clone SEO Analyzer",
   "description": "Get YouTube video tags and SEO metrics directly!",
   "version": "1.0",
+  "Author": "Shiboshree Roy",
+  "Dev & Writer": "Shiboshree Roy",
   "permissions": ["activeTab", "scripting","clipboardWrite"],
    
   "action": {
