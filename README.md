@@ -89,6 +89,7 @@ youtube-seo-analyzer-extension/
 
 * **Name**: Shiboshree Roy
 * **Email**: [shiboshreeroycse@gmail.com](mailto:shiboshreeroycse@gmail.com)
+* **Dev & Writer**: Shiboshree Roy
 
 ---
 
